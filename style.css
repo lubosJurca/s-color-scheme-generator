@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(./background.jpg);
+    background-size: contain;
+
+}
+
+form {
+    border-bottom: 3px solid rgb(83, 77, 77);
+    width: auto;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+
+    display: flex;
+    gap: 1rem
+}
+
+main {
+    background: rgb(231, 228, 228);
+    padding: 1rem;
+    border-radius: 1rem;
+    filter: drop-shadow(6px 16px 20px rgb(163, 160, 158)) drop-shadow(-6px -16px 20px rgb(109, 107, 106));
+
+    width: auto;
+}
+
+
+/* Color scheme */
+
+#result {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+
+    height: 15rem;
+
+}
+
+.color-div {
+
+    width: 4rem;
+    border-radius: 2rem;
+    height: 10rem;
+
+
+}
+
+.color-item {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    border: none;
+    background: transparent;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+    border: 1px solid black;
+}
+
+
+select {
+    border: none;
+    background: transparent;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+    width: 8rem;
+
+
+}
+
+#scheme:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+
+#submit {
+    padding: 1rem;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background: rgb(196, 195, 195);
+    border-radius: 1rem;
+}
+
+#color {
+    margin: 1rem;
+    width: 2rem;
+
+}
+
+#color:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+
+
+.hex-color {
+    margin-top: 2rem;
+    font-family: 'Dancing Script', cursive;
+
+}
